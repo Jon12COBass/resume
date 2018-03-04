@@ -1,5 +1,97 @@
-$bg-color: blue;
+// Main Sass File
+$grey: #F5F5F5;
+$dark-blue: #1D3557;
+$mid-blue: #457B9D;
+$light-green: #F1FAEE;
+$teal: #A8DADC;
+$red: #E63946;
 
 body {
-    background: $bg-color;
+  background-color: $grey; 
 }
+
+#intro {
+	font-family: 'Montserrat', sans-serif;
+	background-color: $dark-blue;
+	color: $light-green;
+}
+
+.divider {
+	border-top: 1px solid #8c8b8b;
+	border-bottom: 1px solid #fff;
+	max-width: 400px;
+}
+
+.navbar-inverse {
+  background-color: $dark-blue;
+  background-image: none;
+  border-bottom-width: 20px;
+  border-color: $mid-blue;
+  margin-bottom: 0px; }
+
+.navbar-brand h1 {
+  color: $light-green; }
+
+#navbar h1,
+h2 {
+  color: #F1FAEE; }
+
+.contact-info h2 {
+  font-size: 1.2em;
+  margin-bottom: 0px;
+  margin-top: 0px; }
+
+.contact-info#first {
+  margin-top: 20px; }
+
+#skills, .work-xp {
+	background-color: $grey;
+}
+
+#skills {
+	background-color: #434242;
+	color: $grey;
+}
+
+#skills h2 {
+  color: $teal;
+   }
+
+#headshot {
+	max-width: 200px;
+}
+
+.jumbotron {
+  background-color: $grey;
+  justify-content: center;
+  text-align: center;
+  border-bottom: 5px solid $dark-blue;
+}
+
+.jumbotron h1 {
+  font-size: 3.0em;
+  color: $dark-blue; }
+
+.jumbotron h2 {
+  color: $dark-blue;
+}
+
+.job-title {
+  color: $red; }
+
+.jumbotron p {
+  color: $dark-blue; }
+
+h2.skill-category {
+  color: $dark-blue; }
+
+.work-xp {
+  color: $dark-blue; }
+
+a.btn.btn-default {
+  background-color: $red;
+  color: $grey; }
+
+footer {
+  background-color: $dark-blue;
+  color: $red; }

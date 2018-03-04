@@ -1,2 +1,80 @@
 body {
-  background: blue; }
+  background-color: #F5F5F5; }
+
+#intro {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #1D3557;
+  color: #F1FAEE; }
+
+.divider {
+  border-top: 1px solid #8c8b8b;
+  border-bottom: 1px solid #fff;
+  max-width: 400px; }
+
+.navbar-inverse {
+  background-color: #1D3557;
+  background-image: none;
+  border-bottom-width: 20px;
+  border-color: #457B9D;
+  margin-bottom: 0px; }
+
+.navbar-brand h1 {
+  color: #F1FAEE; }
+
+#navbar h1,
+h2 {
+  color: #F1FAEE; }
+
+.contact-info h2 {
+  font-size: 1.2em;
+  margin-bottom: 0px;
+  margin-top: 0px; }
+
+.contact-info#first {
+  margin-top: 20px; }
+
+#skills, .work-xp {
+  background-color: #F5F5F5; }
+
+#skills {
+  background-color: #434242;
+  color: #F5F5F5; }
+
+#skills h2 {
+  color: #A8DADC; }
+
+#headshot {
+  max-width: 200px; }
+
+.jumbotron {
+  background-color: #F5F5F5;
+  justify-content: center;
+  text-align: center;
+  border-bottom: 5px solid #1D3557; }
+
+.jumbotron h1 {
+  font-size: 3.0em;
+  color: #1D3557; }
+
+.jumbotron h2 {
+  color: #1D3557; }
+
+.job-title {
+  color: #E63946; }
+
+.jumbotron p {
+  color: #1D3557; }
+
+h2.skill-category {
+  color: #1D3557; }
+
+.work-xp {
+  color: #1D3557; }
+
+a.btn.btn-default {
+  background-color: #E63946;
+  color: #F5F5F5; }
+
+footer {
+  background-color: #1D3557;
+  color: #E63946; }
